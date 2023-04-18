@@ -1,46 +1,12 @@
-.divGeneral {
-    background-color: aquamarine;
+.divInicial {
+    background-color: aqua;
 }
 
-.navbar {
-    width: 80%;
-    margin: auto;
-    padding: 1rem 5rem;
+.itemDetail {
+    max-width: 740px;
+    margin-top: 10px;
 }
-.bg-body-tertiary{
-    background-color: rgba(255, 255, 255, 0.2) !important;
-    width: 100%;
-    border-radius: 1rem;
 
-}
-.active {
-    font-weight: bold;
-    font-style: italic;
-}
-.nav-item:hover {
-    background-color: darkgray;
-    border-top-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-    font-style: italic;
-}
-.productoDescription {
-    max-width: 30rem;
-    border: 2px solid lightgray;
-    padding: 1rem;
-    margin: 1rem auto;
-    border-radius: 1rem;
-    background-color: white;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-.productoDescription h2 {
-    font-weight: bold !important;
-    text-align: center;
-}
-.producto {
-    width: 15rem;
-}
-.productCount {
-    display: flex;
-    justify-content: center;
-    font-size: 2rem;
+.divForm {
+    margin-top: 20px;
 }

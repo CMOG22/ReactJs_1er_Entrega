@@ -1,16 +1,16 @@
-import { useState } from "react"
+import { useCount } from "../../hooks/useCount.js"
 
-export const ItemCount = () => {
-    //     NomVar    FunModicarVar   Valor Inicial
-    const [contador, setContador] = useState(1) //Definir el estado de mi funcion
+export const ItemCount = ({ ValInicial, min, max, onAdd }) => {
 
-    const sum = () => setContador(contador + 1) //Aumentar en uno a contador
-    const res = () => setContador(contador - 1) //Restar en uno a contador
-    return (
-        <div className="productCount">
-            <button onClick={() => res()}>-</button>
-            {contador}
-            <button onClick={() => sum()}>+</button>
-        </div>
-    )
+  const { count, minus, sum, reset } = useCount(ValInicial, min, max)
+
+  return (
+    <>
+      <button className="btn btn-dark" onClick={minus}>-</button>
+      {count}
+      <button className="btn btn-dark" onClick={sum}>+</button>
+      <button className="btn btn-dark" onClick={reset}>Reset</button>
+      <button className="btn btn-light" onClick={() => onAdd(count)}>Agregar al Carrito</button>
+    </>
+  )
 }

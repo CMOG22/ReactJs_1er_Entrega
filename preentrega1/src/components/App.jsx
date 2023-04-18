@@ -1,13 +1,26 @@
-import './App.css'
-import { Producto } from './Producto/Producto.jsx'
-import { ItemCount } from './ItemCount/ItemCount.jsx'
-import { Navbar } from './Navbar/Navbar'
+import './App.css';
+
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+//Components 
+import { Navbar } from './Navbar/Navbar';
+import { ItemListContainer } from './ItemListContainer/ItemListContainer';
+import { ItemDetailContainer } from './ItemDetailContainer/ItemDetailContainer';
+import { Checkout } from './Checkout/Checkout';
 export const App = () => {
-  //Aqui irian los hooks
   return (
-    <div>
-      <Navbar />
-      <Producto mensaje1 />
-    </div>
+    <>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<ItemListContainer />} />
+          <Route path='/category/:category' element={<ItemListContainer />} />
+          <Route path='/product/:id' element={<ItemDetailContainer />} />
+          <Route path='/checkout' element={<Checkout />} />
+        </Routes>
+      </BrowserRouter>
+
+    </>
+
   )
 }
