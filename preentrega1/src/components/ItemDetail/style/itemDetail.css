@@ -1,0 +1,15 @@
+.itemDetail{
+    max-width: 60% !important;
+}
+.detailImg {
+    width: 30rem;
+}
+.detailDiv .card-body{
+    width: 50rem;
+}
+.detailDiv .btn {
+    background-color: darkgray !important;
+    border: 0;
+    color: white;
+    margin: 0rem 1rem;
+}

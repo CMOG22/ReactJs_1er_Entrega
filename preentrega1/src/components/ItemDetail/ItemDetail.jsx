@@ -1,5 +1,6 @@
 //Destalles
-import { ItemCount } from "../ItemCount/ItemCount"
+import { ItemCount } from "../ItemCount/ItemCount";
+import { ClassAttributes } from "./style/itemDetail.css";
 export const ItemDetail = ({ item }) => {
 
     const onAdd = (contador) => { //Agregar al carrito 
@@ -8,8 +9,8 @@ export const ItemDetail = ({ item }) => {
     }
 
     return (
-        <div className="row g-0">
-            <div className="col-md-4">
+        <div className="row g-0 detailDiv">
+            <div className="col-md-4 detailImg">
                 <img src={item.img} alt={`Imagen de ${item.nombre}`} className="img-fluid rounded-start" />
             </div>
             <div className="col-md-8">

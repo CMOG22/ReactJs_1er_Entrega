@@ -1,8 +1,11 @@
 .row {
     margin: auto !important;
     width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
 }
-.row .card{
+.row .card {
     margin: 1rem;
 }
 .card {
@@ -11,8 +14,13 @@
     border: 2px solid grey;
     border-radius: 1rem;
 }
-.cardStyle {
-    width: 20rem !important;
+.cardStyle h2 {
+    font-size: 20px;
+}
+.cardItem {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
 }
 .cardStyle .card-img-top {
     width: 15rem;
