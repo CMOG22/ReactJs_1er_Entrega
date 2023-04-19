@@ -1,0 +1,29 @@
+.row {
+    margin: auto !important;
+    width: 90%;
+}
+.row .card{
+    margin: 1rem;
+}
+.card {
+    column-gap: 1rem;
+    padding: 1rem;
+    border: 2px solid grey;
+    border-radius: 1rem;
+}
+.cardStyle {
+    width: 20rem !important;
+}
+.cardStyle .card-img-top {
+    width: 15rem;
+    height: 10rem;
+    margin: auto;
+}
+.cardStyle .nav-link{
+    text-align: center !important;
+
+}
+.cardStyle .nav-link button{
+    background-color: lightgray;
+    color: black;
+}

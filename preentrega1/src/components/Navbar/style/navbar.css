@@ -1,0 +1,48 @@
+nav {
+    width: 90%;
+    padding: 1rem 2rem !important;
+    margin: 1rem auto 2rem !important;
+}
+.navbar-bg-color {
+    background-color: lightgray !important;
+    margin: auto;
+}
+.collapse {
+    max-width: 100% !important;
+    margin: auto;
+    display: flex;
+    justify-content: center !important;
+}
+.collapse button {
+    display: flex;
+    justify-content: center;
+    background-color: gray !important;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    width: 10rem;
+    height: 5rem;
+    font-size: 35px;
+}
+.collapse button {
+    background-color: darkgray;
+}
+.collapse button p {
+    font-size: 10rem;
+}
+.logoCmog img{
+    max-width: 4rem !important;
+}
+.logo img{
+    max-width: 7rem;
+}
+.logoDodge img {
+    max-width: 7rem;
+}
+.logoBmw img {
+    max-width: 4rem;
+}
+.logoFerrari img {
+    max-width: 3rem;
+}

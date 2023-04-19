@@ -1,0 +1,162 @@
+[
+    {
+        "id": 1,
+        "idCategoria": 1,
+        "nombre": "Fiesta",
+        "marca": "Ford",
+        "modelo": "2023",
+        "precio": 23733.60,
+        "stock": 5,
+        "img": "/img/fiesta.jpg"
+    },
+    {
+        "id": 2,
+        "idCategoria": 1,
+        "nombre": "Mustang",
+        "marca": "Ford",
+        "modelo": "2023",
+        "precio": 516000.84,
+        "stock": 45,
+        "img": "/img/mustang.jpg"
+    },
+    {
+        "id": 3,
+        "idCategoria": 1,
+        "nombre": "Expedition",
+        "marca": "Ford",
+        "modelo": "2023",
+        "precio": 87699.08,
+        "stock": 30,
+        "img": "/img/expedition.jpg"
+    },
+    {
+        "id": 4,
+        "idCategoria": 1,
+        "nombre": "Bronco",
+        "marca": "Ford",
+        "modelo": "2023",
+        "precio": 74790.75,
+        "stock": 7,
+        "img": "/img/bronco.jpg"
+    },
+    {
+        "id": 5,
+        "idCategoria": 2,
+        "nombre": "Charger",
+        "marca": "Dodge",
+        "modelo": "2023",
+        "precio": 93349.94,
+        "stock": 9,
+        "img": "/img/charger.jpg"
+    },
+    {
+        "id": 6,
+        "idCategoria": 2,
+        "nombre": "Challenger",
+        "marca": "Dodge",
+        "modelo": "2023",
+        "precio": 49860.50,
+        "stock": 23,
+        "img": "/img/challenger.jpeg"
+    },
+    {
+        "id": 7,
+        "idCategoria": 2,
+        "nombre": "Atitude",
+        "marca": "Dodge",
+        "modelo": "2023",
+        "precio": 14869.51,
+        "stock": 101,
+        "img": "/img/atitude.jpg"
+    },
+    {
+        "id": 8,
+        "idCategoria": 2,
+        "nombre": "Viper",
+        "marca": "Dodge",
+        "modelo": "2023",
+        "precio": 84995.00,
+        "stock": 1,
+        "img": "/img/viper.jpg"
+    },
+    {
+        "id": 9,
+        "idCategoria": 3,
+        "nombre": "xDrive40",
+        "marca": "BMW",
+        "modelo": "2023",
+        "precio": 106923.08,
+        "stock": 10,
+        "img": "/img/xDrive40.jpg"
+    },
+    {
+        "id": 10,
+        "idCategoria": 3,
+        "nombre": "X4",
+        "marca": "BMW",
+        "modelo": "2023",
+        "precio": 74790.75,
+        "stock": 25,
+        "img": "/img/x4.jpg"
+    },
+    {
+        "id": 11,
+        "idCategoria": 3,
+        "nombre": "X6 M60i",
+        "marca": "BMW",
+        "modelo": "2023",
+        "precio": 119665.20,
+        "stock": 5,
+        "img": "/img/X6 M60i.jpg"
+    },
+    {
+        "id": 12,
+        "idCategoria": 4,
+        "nombre": "A8",
+        "marca": "Audi",
+        "modelo": "2023",
+        "precio": 120213.67,
+        "stock": 29,
+        "img": "/img/a8.jpg"
+    },
+    {
+        "id": 13,
+        "idCategoria": 4,
+        "nombre": "R8",
+        "marca": "Audi",
+        "modelo": "2023",
+        "precio": 174506.21,
+        "stock": 2,
+        "img": "/img/r8.jpg"
+    },
+    {
+        "id": 14,
+        "idCategoria": 4,
+        "nombre": "A1 Sportback",
+        "marca": "Audi",
+        "modelo": "2023",
+        "precio": 29633.76,
+        "stock": 30,
+        "img": "/img/a1.jpg"
+    },
+    {
+        "id": 15,
+        "idCategoria": 5,
+        "nombre": "812 GTS",
+        "marca": "Ferrari",
+        "modelo": "2023",
+        "precio": 371776.91,
+        "stock": 3,
+        "img": "/img/812GTS.jpg"
+    },
+    {
+        "id": 16,
+        "idCategoria": 5,
+        "nombre": "F8 Spider",
+        "marca": "Ferrari",
+        "modelo": "2023",
+        "precio": 286976.46,
+        "stock": 1,
+        "img": "/img/f8.jpg"
+    }
+]
