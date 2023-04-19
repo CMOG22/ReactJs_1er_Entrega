@@ -1,3 +1,3 @@
-# Primer Preentrega ReactJs
+# Segunda Preentrega ReactJs
 César Olvera Gutiérrez
 Comición  39655
