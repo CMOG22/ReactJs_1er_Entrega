@@ -7,6 +7,7 @@ import { Navbar } from './Navbar/Navbar';
 import { ItemListContainer } from './ItemListContainer/ItemListContainer';
 import { ItemDetailContainer } from './ItemDetailContainer/ItemDetailContainer';
 import { Checkout } from './Checkout/Checkout';
+import { Derechos } from './Pie/Derechos/Derechos';
 export const App = () => {
   return (
     <>
@@ -18,6 +19,7 @@ export const App = () => {
           <Route path='/product/:id' element={<ItemDetailContainer />} />
           <Route path='/checkout' element={<Checkout />} />
         </Routes>
+        <Derechos />
       </BrowserRouter>
 
     </>

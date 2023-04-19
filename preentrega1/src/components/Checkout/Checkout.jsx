@@ -1,7 +1,7 @@
 import { useRef } from "react"
 export const Checkout = () => {
 
-    const datForm = useRef() //Crear una referencia para consultar los valoresa actuales del form
+    const datForm = useRef() 
 
     const consultarForm = (e) => {
         //Consultar los datos del formulario
@@ -15,7 +15,7 @@ export const Checkout = () => {
         <div className="container divForm" >
             <form onSubmit={consultarForm} ref={datForm}>
                 <div className="mb-3">
-                    <label htmlFor="nombre" className="form-label">Nombre y Apellido</label>
+                    <label htmlFor="nombre" className="form-label">Nombre</label>
                     <input type="text" className="form-control" name="nombre" required />
                 </div>
                 <div className="mb-3">
@@ -27,11 +27,11 @@ export const Checkout = () => {
                     <input type="email" className="form-control" name="emailRepetido" />
                 </div>
                 <div className="mb-3">
-                    <label htmlFor="dni" className="form-label">DNI</label>
+                    <label htmlFor="dni" className="form-label">INE</label>
                     <input type="number" className="form-control" name="dni" />
                 </div>
                 <div className="mb-3">
-                    <label htmlFor="celular" className="form-label">Numero telefonico</label>
+                    <label htmlFor="celular" className="form-label">Telefono</label>
                     <input type="number" className="form-control" name="celular" />
                 </div>
                 <div className="mb-3">
