@@ -20,6 +20,7 @@ export const ItemDetail = ({ item }) => {
                     <p className="card-text">Marca: {item.marca}</p>
                     <p className="card-text">Precio: ${item.precio}</p>
                     <p className="card-text">Stock: {item.stock}</p>
+                    <p className="card-text">Detalle: {item.detalle}</p>
                     <ItemCount ValInicial={1} min={1} max={item.stock} onAdd={onAdd} />
                 </div>
             </div>

@@ -3,6 +3,7 @@
 }
 .detailImg {
     width: 30rem;
+    margin: auto;
 }
 .detailDiv .card-body{
     width: 50rem;
@@ -12,4 +13,10 @@
     border: 0;
     color: white;
     margin: 0rem 1rem;
+}
+.detailDiv p {
+    width: 30rem;
+}
+.card-text {
+    font-size: 15px;
 }

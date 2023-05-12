@@ -5,7 +5,7 @@ export const Derechos = () => {
     return (
         <div className="pie">
             <p>
-                <a href="https://cmog22.github.io/final.github.io/" target="_blank">César Olvera</a> / <a href="https://www.coderhouse.com.mx/" target="_blank">CoderHouse</a> / Segunda PreEntrega. Todos los derechos reservados 2023.
+                <a href="https://cmog22.github.io/final.github.io/" target="_blank">César Olvera</a> / <a href="https://www.coderhouse.com.mx/" target="_blank">CoderHouse</a> / Proyecto final. Todos los derechos reservados 2023.
             </p>
         </div>
     );
