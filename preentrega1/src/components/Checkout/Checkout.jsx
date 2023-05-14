@@ -27,28 +27,36 @@ export const Checkout = () => {
                     <div className="container divForm" >
                         <form onSubmit={consultarForm} ref={datForm}>
                             <div className="mb-3">
-                                <label htmlFor="nombre" className="form-label">Nombre y Apellido</label>
+                                <label htmlFor="nombre" className="form-label">Nombre completo</label>
                                 <input type="text" className="form-control" name="nombre" required />
                             </div>
                             <div className="mb-3">
+                                <label htmlFor="celular" className="form-label">Numero telefonico</label>
+                                <input type="number" className="form-control" name="celular" required />
+                            </div>
+                            <div className="mb-3">
                                 <label htmlFor="email" className="form-label">Email</label>
-                                <input type="email" className="form-control" name="email" />
+                                <input type="email" className="form-control" name="email" required />
                             </div>
                             <div className="mb-3">
                                 <label htmlFor="email" className="form-label">Repetir Email</label>
-                                <input type="email" className="form-control" name="emailRepetido" />
+                                <input type="email" className="form-control" name="emailRepetido" required />
                             </div>
                             <div className="mb-3">
-                                <label htmlFor="dni" className="form-label">DNI</label>
-                                <input type="number" className="form-control" name="dni" />
+                                <label htmlFor="curp" className="form-label">CURP</label>
+                                <input type="number" className="form-control" name="curp" required />
                             </div>
                             <div className="mb-3">
-                                <label htmlFor="celular" className="form-label">Numero telefonico</label>
-                                <input type="number" className="form-control" name="celular" />
+                                <label htmlFor="rfc" className="form-label">RFC</label>
+                                <input type="number" className="form-control" name="rfc" required />
                             </div>
                             <div className="mb-3">
-                                <label htmlFor="direccion" className="form-label">Direccion</label>
-                                <input type="text" className="form-control" name="direccion" />
+                                <label htmlFor="circulacion" className="form-label">Licencia de conducir</label>
+                                <input type="number" className="form-control" name="circulacion" required />
+                            </div>
+                            <div className="mb-3">
+                                <label htmlFor="direccion" className="form-label">Direccion</label><br></br>
+                                <textarea className="form-control" id="direccion" name="direccion" rows="4" cols="150" required ></textarea>
                             </div>
                             <button type="submit" className="btn btn-primary">Finalizar Compra</button>
                         </form>
