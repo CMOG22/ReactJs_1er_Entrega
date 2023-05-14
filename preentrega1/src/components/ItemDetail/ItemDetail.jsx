@@ -1,11 +1,12 @@
 //Destalles
-import { ItemCount } from "../ItemCount/ItemCount";
+import { ItemCount } from "../ItemCount/ItemCount"
+import { useCarritoContext } from "../../context/CartContext";
 import { ClassAttributes } from "./style/itemDetail.css";
 export const ItemDetail = ({ item }) => {
-
+    const { addItem } = useCarritoContext()
+    
     const onAdd = (contador) => { //Agregar al carrito 
-        console.log(contador)
-        console.log(item)
+        addItem(item, contador)
     }
 
     return (
