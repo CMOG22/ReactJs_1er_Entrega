@@ -37,7 +37,7 @@ export const Checkout = () => {
 
         createOrdenCompra(cliente, totalPrice(), aux2, new Date().toLocaleString('es-MX', { timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone}))
         .then(ordenCompra => {
-            console.log(`Muchas gracias por comprar con nosotros,  en breve nos contactaremos para segimiento de la compra y entrega`)
+            alert(`Muchas gracias por comprar con nosotros,  en breve nos contactaremos para segimiento de la compra y entrega`)
             emptyCart()
             e.target.reset()//reset form
             navigate("/") //Defino la ruta hacia donde quiero redirigir
