@@ -37,7 +37,7 @@ export const Checkout = () => {
 
         createOrdenCompra(cliente, totalPrice(), aux2, new Date().toLocaleString('es-MX', { timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone}))
         .then(ordenCompra => {
-            alert(`Muchas gracias por comprar con nosotros, su ID de compra es ${ordenCompra.id} por un total de ${totalPrice()}, en breve nos contactaremos para segimiento de la compra y entrega`)
+            console.log(`Muchas gracias por comprar con nosotros,  en breve nos contactaremos para segimiento de la compra y entrega`)
             emptyCart()
             e.target.reset()//reset form
             navigate("/") //Defino la ruta hacia donde quiero redirigir
@@ -46,9 +46,6 @@ export const Checkout = () => {
         .catch(error => {
                 console.error(error)
             })
-
-        
-
 
     }
     return (
@@ -80,11 +77,11 @@ export const Checkout = () => {
                             </div>
                             <div className="mb-3">
                                 <label htmlFor="curp" className="form-label">CURP</label>
-                                <input type="number" className="form-control" name="curp" required />
+                                <input type="text" className="form-control" name="curp" required />
                             </div>
                             <div className="mb-3">
                                 <label htmlFor="rfc" className="form-label">RFC</label>
-                                <input type="number" className="form-control" name="rfc" required />
+                                <input type="text" className="form-control" name="rfc" required />
                             </div>
                             <div className="mb-3">
                                 <label htmlFor="circulacion" className="form-label">Licencia de conducir</label>
