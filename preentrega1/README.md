@@ -22,3 +22,5 @@ si optamos por vaciar se perdera todo lo que se agrego al carrito
 ##Contribución
 El proyecto esta creado en esencia siguiendo el material impartido por el profesor 
 
+##Video Demo
+https://youtu.be/gFk3q1toKQA
