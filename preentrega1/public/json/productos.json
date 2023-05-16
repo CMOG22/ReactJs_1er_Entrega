@@ -7,7 +7,7 @@
         "modelo": "2023",
         "precio": 23733.60,
         "stock": 5,
-        "img": "/img/fiesta.jpg",
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-57ed2.appspot.com/o/fiesta.jpg?alt=media&token=e8adad61-c1ef-4764-8e82-4f9c18769e6f",
         "detalle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
@@ -18,7 +18,7 @@
         "modelo": "2023",
         "precio": 516000.84,
         "stock": 45,
-        "img": "/img/mustang.jpg",
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-57ed2.appspot.com/o/mustang.jpg?alt=media&token=ac226079-cc98-4108-8236-8b1c8f2c9dae",
         "detalle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
@@ -29,7 +29,7 @@
         "modelo": "2023",
         "precio": 87699.08,
         "stock": 30,
-        "img": "/img/expedition.jpg",
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-57ed2.appspot.com/o/expedition.jpg?alt=media&token=dc445ddf-2dca-4e46-b36b-93d68428a0ac",
         "detalle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
@@ -40,7 +40,7 @@
         "modelo": "2023",
         "precio": 74790.75,
         "stock": 7,
-        "img": "/img/bronco.jpg",
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-57ed2.appspot.com/o/bronco.jpg?alt=media&token=c8a3ec77-6fb1-42c2-9512-b5fc6c7b1d15",
         "detalle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
@@ -51,7 +51,7 @@
         "modelo": "2023",
         "precio": 93349.94,
         "stock": 9,
-        "img": "/img/charger.jpg",
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-57ed2.appspot.com/o/charger.jpg?alt=media&token=24e7a13e-9320-4689-9f70-daf768ffc010",
         "detalle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
@@ -62,7 +62,7 @@
         "modelo": "2023",
         "precio": 49860.50,
         "stock": 23,
-        "img": "/img/challenger.jpeg",
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-57ed2.appspot.com/o/challenger.jpeg?alt=media&token=aaee9ead-9efc-4d54-8496-02870a295712",
         "detalle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
@@ -73,7 +73,7 @@
         "modelo": "2023",
         "precio": 14869.51,
         "stock": 101,
-        "img": "/img/atitude.jpg",
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-57ed2.appspot.com/o/atitude.jpg?alt=media&token=d0101089-6a37-4adf-98c5-b196e286a316",
         "detalle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
@@ -84,7 +84,7 @@
         "modelo": "2023",
         "precio": 84995.00,
         "stock": 1,
-        "img": "/img/viper.jpg",
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-57ed2.appspot.com/o/viper.jpg?alt=media&token=8a6448f5-8104-4573-aafd-33e27c4ed0ee",
         "detalle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
@@ -95,7 +95,7 @@
         "modelo": "2023",
         "precio": 106923.08,
         "stock": 10,
-        "img": "/img/xDrive40.jpg",
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-57ed2.appspot.com/o/xDrive40.jpg?alt=media&token=1a220210-e4e1-42c4-94d6-8f5d98f4235c",
         "detalle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
@@ -106,7 +106,7 @@
         "modelo": "2023",
         "precio": 74790.75,
         "stock": 25,
-        "img": "/img/x4.jpg",
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-57ed2.appspot.com/o/x4.jpg?alt=media&token=e59c3c49-99b5-4dc0-b488-6e0d0ca7bfc0",
         "detalle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
@@ -117,7 +117,7 @@
         "modelo": "2023",
         "precio": 119665.20,
         "stock": 5,
-        "img": "/img/X6 M60i.jpg",
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-57ed2.appspot.com/o/X6%20M60i.jpg?alt=media&token=e2dbc4fa-fc34-4cac-800b-59cf1ff40e6e",
         "detalle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
@@ -128,7 +128,7 @@
         "modelo": "2023",
         "precio": 120213.67,
         "stock": 29,
-        "img": "/img/a8.jpg",
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-57ed2.appspot.com/o/a8.jpg?alt=media&token=7ded3a2f-e6da-4bb3-8c9f-6371e1e58835",
         "detalle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
@@ -139,7 +139,7 @@
         "modelo": "2023",
         "precio": 174506.21,
         "stock": 2,
-        "img": "/img/r8.jpg",
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-57ed2.appspot.com/o/r8.jpg?alt=media&token=d8f84156-abb0-4b6f-b394-853b36666e89",
         "detalle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
@@ -150,7 +150,7 @@
         "modelo": "2023",
         "precio": 29633.76,
         "stock": 30,
-        "img": "/img/a1.jpg",
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-57ed2.appspot.com/o/a1.jpg?alt=media&token=68983299-d4b8-4d01-b292-3f9eea32b49c",
         "detalle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
@@ -161,7 +161,7 @@
         "modelo": "2023",
         "precio": 371776.91,
         "stock": 3,
-        "img": "/img/812GTS.jpg",
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-57ed2.appspot.com/o/812GTS.jpg?alt=media&token=91415602-bf47-42ac-9cb9-1afde1136515",
         "detalle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     },
     {
@@ -172,7 +172,7 @@
         "modelo": "2023",
         "precio": 286976.46,
         "stock": 1,
-        "img": "/img/f8.jpg",
+        "img": "https://firebasestorage.googleapis.com/v0/b/proyecto-57ed2.appspot.com/o/f8.jpg?alt=media&token=d6e10f6b-6cdb-480c-9997-58bfe3cefba9",
         "detalle":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
     }
 ]

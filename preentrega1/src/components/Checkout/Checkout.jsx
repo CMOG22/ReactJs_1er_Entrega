@@ -1,19 +1,55 @@
 import { useRef } from "react"
 import { useCarritoContext } from "../../context/CartContext"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
+import { createOrdenCompra, getOrdenCompra, getProduct, updateProduct } from "../../firebase/firebase"
+
 export const Checkout = () => {
 
     const datForm = useRef() //Crear una referencia para consultar los valoresa actuales del form
     const { carrito, totalPrice, emptyCart } = useCarritoContext()
 
+    let navigate = useNavigate()
     const consultarForm = (e) => {
         //Consultar los datos del formulario
         e.preventDefault()
-        console.log(datForm)
+
         const datosFormulario = new FormData(datForm.current) //Pasar de HTML a Objeto Iterable
         const cliente = Object.fromEntries(datosFormulario) //Pasar de objeto iterable a objeto simple
-        console.log(cliente)
-        e.target.reset() //Reset form
+        
+        const aux = [...carrito]
+        //recorrer el carro y descontar el stock
+        aux.forEach(prodCarrito => {
+            getProduct(prodCarrito.id).then(prodBBD => {
+                if (prodBBD.stock >= prodCarrito.quantity) {
+                    prodBBD.stock -= prodCarrito.quantity
+                    updateProduct(prodBBD, prodBBD)
+                } else {
+                    console.log("El stock no es mayor o igual a la cantidad que se quiere comprar")
+                }
+            })
+        })
+
+        const aux2 = aux.map(prod => ({ 
+            id: prod.id, 
+            quantity: prod.quantity, 
+            precio: prod.precio 
+        }));
+
+        createOrdenCompra(cliente, totalPrice(), aux2, new Date().toLocaleString('es-MX', { timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone}))
+        .then(ordenCompra => {
+            alert(`Muchas gracias por comprar con nosotros, su ID de compra es ${ordenCompra.id} por un total de ${totalPrice()}, en breve nos contactaremos para segimiento de la compra y entrega`)
+            emptyCart()
+            e.target.reset()//reset form
+            navigate("/") //Defino la ruta hacia donde quiero redirigir
+        })
+
+        .catch(error => {
+                console.error(error)
+            })
+
+        
+
+
     }
     return (
         <>

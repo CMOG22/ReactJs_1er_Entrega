@@ -9,7 +9,10 @@ import { ItemDetailContainer } from './ItemDetailContainer/ItemDetailContainer';
 import { Checkout } from './Checkout/Checkout';
 import { Cart } from './Cart/Cart';
         import { Derechos } from './Pie/Derechos/Derechos';
+
+import { createProducts } from '../firebase/firebase.js'
 export const App = () => {
+  //createProducts ()
   return (
     <>
       <BrowserRouter>
